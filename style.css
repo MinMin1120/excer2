@@ -1,0 +1,41 @@
+body
+{
+	background-color: hotpink;
+}
+h2
+{   font-size: 20px;
+	color: red;
+	text-align: center;
+}
+
+.group1{
+	width: 400px;
+}
+.group1:hover{ 
+	zoom: 102%;
+	zoomamount: 10;
+	
+
+
+}
+.group2
+{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	color: red;
+	border: 3px solid red;
+
+
+}
+.group3
+{
+	color: #481141;
+}
+.group4
+{
+	color: black;
+}
+button{ border: 0px;
+	border-radius: 5%;
+}

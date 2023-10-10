@@ -1,0 +1,44 @@
+fieldset{
+	background-color: hotpink;
+}
+legend{
+	background-color: blanchedalmond;
+	font-size: 20px;
+}
+button{ 
+	width: 100px;
+	height:30px ;
+	float: left;
+	margin-left: 50px;
+}
+input[type="reset"]{
+	width: 100px;
+	height:30px ;
+	float: left;
+}
+.g1{border: 3px solid red;
+	cursor: pointer;
+}
+.g1:hover{
+	background-color: red;
+}
+
+.g2{
+	border: 3px solid yellow;
+	cursor: pointer;
+}
+.g2:hover{
+	background-color: yellow;
+}
+.g3{
+	border: 3px solid green;
+	cursor: pointer;
+}
+.g3:hover{
+	background-color: green;
+}
+
+
+p{
+	font-size: 20px;
+}

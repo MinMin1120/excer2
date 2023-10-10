@@ -1,0 +1,26 @@
+div.bloc1{
+	background-color: blueviolet;
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 10px;
+}
+
+div.bloc2{
+	background-color: greenyellow;
+	height: 200px;
+	width: 150px;
+	float: left;
+	margin-left: 30px;
+	margin: 30px;
+}
+
+div.bloc3{
+	background-color: red;
+	height: 200px;
+	width: 150px;
+	float: left;
+	margin-left: 50px;
+	margin: 20px;
+	clear: both;
+}
