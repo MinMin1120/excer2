@@ -1,0 +1,40 @@
+button{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: beige;
+}
+input{
+    width: 192px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    text-align: center;
+}
+input.g2{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: beige;
+}
+.g2:hover{
+    background-color: black;
+    color: white;
+}
+.g1{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    transition: 0.2s;
+
+}
+.g1:hover{
+    background-color: black;
+    color: white;
+    transition: 150ms;
+}
