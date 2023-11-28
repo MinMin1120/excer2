@@ -1,0 +1,126 @@
+body{
+    background-image:;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    }
+nav{
+        width: 100%;
+        margin: 0px auto;
+        float: ;
+        display: flex;
+        background-color: black;
+    }
+ul.main-menu{
+    background-color: black;
+    display: flex;
+    padding: 0 ;
+    margin: 0;
+    list-style: none;
+    
+}
+ul.main-menu li.html{
+    text-decoration: none;
+    color: #f8f8f8;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+ul.main-menu li{
+    position: relative;
+    
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+}
+ul.sub-menu {
+    display: ;
+    position: absolute;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    top: 50px;
+    
+}
+ul.sub-menu li.s{
+    display: none;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 180px;
+    height: 30px;
+    background-color:#9D1083;
+    padding: 0px 0px;
+    left: -1px;
+}
+ul.sub-menu li.ss{
+    display: none;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 180px;
+    height: 30px;
+    background-color:#9D1083;
+    padding: 0px 0px;
+    left: -1px;
+}
+ul.sub-menu li.s{
+    display: none;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 180px;
+    height: 30px;
+    background-color:#9D1083;
+    padding: 0px 0px;
+    left: -1px;
+}
+ul.sub-menu li a{
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #f8f8f8;
+}
+.main-menu li:hover>ul.sub-menu li.ss  {
+    display:block ;
+}
+.main-menu li:hover>ul.sub-menu li.s  {
+    display:block ;
+}
+ul.main-menu li.html:hover{
+    border-top: 5px solid #9D1083;
+}
+ul.sub-menu li:hover{
+    border-top: 2px solid #9D1083;
+}
+ul.sub-menu li.s:hover a{
+    color: #0B0101;
+    font-size: 17px;
+}
+ul.sub-menu li.ss:hover a.s2{
+    color: #0B0101;
+    font-size: 17px;
+}
+ul.s1 li{
+    display: none;
+    left:140px;
+    top: -25px;
+}
+ul.s1 li a{
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #f8f8f8;
+}
+ul.s1 li{
+    background-color: #BE4EB0 ;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 31px;
+}
+li.ss:hover ul.s1 li {
+    display: block;
+}
+ul.s1 li:hover a{
+    color: #0B0101;
+    font-size: 13px;
+}
+
+
